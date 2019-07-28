@@ -1,10 +1,3 @@
 puts "Give me a number, any number."
-first_number = gets
-first_number = first_number.to_i
-number = first_number
-number += 5
-number *= 2
-number -= 4
-number /= 2 
-number -= first_number 
-puts number
+number = gets.to_i
+puts "Surprise, surprise, the number is: #{((((number + 5) * 2) - 4) / 2) - number}!"
