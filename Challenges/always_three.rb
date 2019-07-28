@@ -1,6 +1,6 @@
 puts "Give me a number, any number."
-input = gets
-first_number = input.to_i
+first_number = gets
+first_number = first_number.to_i
 number = first_number
 number += 5
 number *= 2
